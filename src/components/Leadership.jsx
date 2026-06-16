@@ -5,22 +5,25 @@ export default function Leadership() {
     {
       name: "Rajesh",
       role: "President",
-      image: "/team/president.jpg",
+      ad: "Unnichethu, Erezha (N) Chettikulagara PO, MAVALIKARA",
+      cp: "Mythri group",
+      image: "/images/p.webp",
     },
     {
       name: "Mahesh Kumar",
       role: "general secretary",
-      image: "/team/vice-president.jpg",
+      ad: "ELAVAKKATTU VETTICODE MAVELIKKARA",
+      cp: "B-secure",
+
+      image: "/images/s.webp",
     },
     {
       name: "Mathew Abraham",
       role: "treasurer",
-      image: "/team/secretary.jpg",
-    },
-    {
-      name: "Shiju varghese",
-      role: "joint secretary",
-      image: "/team/treasurer.jpg",
+      ad: "Kambusseril Harippad. ",
+      cp: "Sevanadhara Home Care",
+
+      image: "/images/t.webp",
     },
   ];
 
@@ -44,7 +47,7 @@ export default function Leadership() {
         </div>
 
         {/* Team Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           {team.map((member, index) => (
             <div
               key={index}
@@ -53,7 +56,7 @@ export default function Leadership() {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-72 object-cover"
+                className="w-full h-92 object-cover"
               />
 
               <div className="p-6">
@@ -62,6 +65,8 @@ export default function Leadership() {
                 </h3>
 
                 <p className="text-[#D4A017] font-medium mt-2">{member.role}</p>
+                <p className="text-[#D4A017] font-medium mt-2">{member.ad}</p>
+                <p className="text-[#D4A017] font-medium mt-2">{member.cp}</p>
 
                 {/* <div className="flex gap-4 mt-5">
                   <button className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200">

@@ -101,9 +101,11 @@ export default function Hero() {
             </nav>
 
             {/* Desktop Button */}
-            <button className="hidden lg:block bg-[#0A2A66] text-white px-6 py-3 rounded-xl hover:bg-[#D4A017] transition">
-              Join FORCE
-            </button>
+            <a href="#contact">
+              <button className="hidden lg:block bg-[#0A2A66] text-white px-6 py-3 rounded-xl hover:bg-[#D4A017] transition">
+                Join FORCE
+              </button>
+            </a>
 
             {/* Mobile Menu Button */}
             <button className="lg:hidden" onClick={() => setOpen(!open)}>
@@ -170,9 +172,11 @@ export default function Hero() {
                       </p>
 
                       <div className="flex flex-wrap gap-4 mt-8">
-                        <button className="px-8 py-4 rounded-xl bg-[#0A2A66] text-white font-semibold hover:scale-105 transition">
-                          Join FORCE
-                        </button>
+                        <a href="#contact">
+                          <button className="px-8 py-4 rounded-xl bg-[#0A2A66] text-white font-semibold hover:scale-105 transition">
+                            Join FORCE
+                          </button>
+                        </a>
 
                         <button className="px-8 py-4 rounded-xl border-2 border-[#0A2A66] text-[#0A2A66] font-semibold hover:bg-[#0A2A66] hover:text-white transition">
                           Explore Services
