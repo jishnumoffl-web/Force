@@ -72,8 +72,12 @@ function Navbar() {
             </Link>
 
             {/* Mobile Menu Button */}
-            <button className="lg:hidden" onClick={() => setOpen(!open)}>
-              {open ? <X size={28} /> : <Menu size={28} />}
+            <button className="lg:hidden " onClick={() => setOpen(!open)}>
+              {open ? (
+                <X size={28} className="text-black" />
+              ) : (
+                <Menu size={28} className="text-black" />
+              )}
             </button>
           </div>
         </div>
