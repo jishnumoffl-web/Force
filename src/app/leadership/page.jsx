@@ -87,28 +87,28 @@ export default function LeadershipPage() {
     },
 
     {
-      district: "Kollam",
+      district: "Pathanamthitta",
       leaders: [
         {
-          name: "",
+          name: "K P Anilkumar",
           role: "President",
-          image: "/images/default-user.webp",
+          image: "/images/pp.webp",
         },
         {
-          name: "",
+          name: "Radhika devi P S",
           role: "Secretary",
-          image: "/images/default-user.webp",
+          image: "/images/ps.webp",
         },
         {
-          name: "",
+          name: "Shyni Raju",
           role: "Treasurer",
-          image: "/images/default-user.webp",
+          image: "/images/pt.webp",
         },
       ],
     },
 
     {
-      district: "Pathanamthitta",
+      district: "Kollam",
       leaders: [
         {
           name: "",
